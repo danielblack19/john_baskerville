@@ -13,7 +13,7 @@ body {
     margin: auto;
     background: #fafafa;
     color: #333;
-    font-family: 'Libre Baskerville', serif;
+  
 }
 
 /*-------- Typography --------*/ 
@@ -22,7 +22,9 @@ h1, h2, h3 {
     font-weight: normal;
     color: #8F0040;
     text-align: center;
+    font-family: 'Libre Baskerville', serif;
 }
+p, { font-family: 'Open Sans', sans-serif;}
 
 p, blockquote {
     margin-bottom: 1em;
