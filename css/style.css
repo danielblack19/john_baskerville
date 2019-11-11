@@ -23,6 +23,7 @@ h1, h2, h3 {
     color: #8F0040;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
+    font-style: italic;
 }
 p, { font-family: 'Open Sans', sans-serif;}
 
@@ -48,6 +49,8 @@ blockquote {
     hanging-punctuation: first;
     text-indent: -0.02em;
 }
+
+
 
 blockquote cite { 
     font-size: 0.75em;
