@@ -25,7 +25,10 @@ h1, h2, h3 {
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
 }
-p, { font-family: 'Open Sans', sans-serif;}
+p, { 
+    font-family: 'Open Sans', sans-serif;
+
+}
 
 p, blockquote {
     margin-bottom: 1em;
@@ -57,12 +60,56 @@ blockquote cite {
     color: #333
 
 }
+/*--------STYLING LINKS-----*/
+a { 
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000 
+    border-bottom: 1px solid;
+}
+
+/*------Navigation------*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #8F0040;
+    padding: 1em 0;
+    font-size: 0.75em;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px;
+}
+
+nav a:link {
+    color: #fafafa;
+}
+ 
+nav a:hover {}
+
+nav a:visited { 
+    color: #fafafa 
+}
 
 /*------- Footer ------*/
 
 footer {
     text-align: center;
-    font-size: 0.707em;
-    padding: 2em 0;
+    font-size: 1.000em
+    padding: 2em 0 1em 0;
 
 }
