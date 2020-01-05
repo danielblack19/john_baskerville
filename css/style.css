@@ -68,7 +68,22 @@ blockquote cite {
     color: #333;
 }
 
-
+/*----------------- FLEXBOX ------------------*/
+    
+article {
+    display: flex;} 
+   
+   
+.main { 
+    flex: 3;
+    padding-right: 1em }
+   
+aside { 
+    flex: 1;  
+    font-size: 1.00em;
+    font-style: italic; 
+    border-left: 1px solid rgb(226, 147, 187);
+    padding-left: 1em}
 
 /*--------STYLING LINKS-----*/
 a { 
@@ -148,13 +163,13 @@ th {
     text-transform: uppercase;
     font-weight: normal;
     text-align: left;
-    background: #8F0040;
+    background: rgb(119, 31, 46);
 }
 
 th, td {
     padding: .6em; }
 
 table, td   {
-    background: rgb(221, 160, 187);
+    background: rgb(250, 78, 93);
     border: 1px solid #fafafa;
 }
