@@ -1,0 +1,107 @@
+/*-------- CSS Reset --------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+body {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    background: #C0C0C0;
+    color: #000000;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/*-------- Typography --------*/ 
+
+h1, h2, h3 {
+    font-weight: normal;
+    color: rgb(75, 75, 236);
+    text-align: center;
+}
+
+p, blockquote {
+    margin-bottom: 1em;
+    line-height: 1.4;
+}
+
+p {
+    font-size: 1.000em;
+}
+
+h1 {font-size: 3.200em;
+    margin-top: 1.5em;
+}
+
+h2 {font-size: 1.600em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h3 {font-size: 1.414em;}
+
+blockquote {
+    font-size: 1.100em; 
+    hanging-punctuation: first;
+    text-indent: -0.02em;
+}
+
+blockquote cite { 
+    font-size: 0.75em;
+    color: #333
+
+}
+
+/*---- Nav -----*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(66, 164, 245);
+    padding: 1em 0;
+    font-size: 0.75em;
+    box-shadow: 0 0 10px 0 black;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px;
+    background: none;
+}
+
+nav a:link {
+    color: #fafafa;
+}
+
+nav a:visited {
+    color: #fafafa;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+/*------- Footer ------*/
+
+footer {
+    text-align: center;
+    font-size: 0.750em;
+    padding: 2em 0;
+
+}
